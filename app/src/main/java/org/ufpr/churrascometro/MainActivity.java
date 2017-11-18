@@ -1,4 +1,4 @@
-package ufpr.org.churrascometro;
+package org.ufpr.churrascometro;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import ufpr.org.churrascometro.calc.BarbecueCalc;
+import org.ufpr.churrascometro.calc.BarbecueCalc;
 
 public class MainActivity extends AppCompatActivity implements Button.OnClickListener, SeekBar.OnSeekBarChangeListener {
 

@@ -1,4 +1,4 @@
-package ufpr.org.churrascometro;
+package org.ufpr.churrascometro;
 
 import org.junit.Test;
 

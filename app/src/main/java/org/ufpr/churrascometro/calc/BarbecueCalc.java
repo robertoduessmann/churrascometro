@@ -1,4 +1,4 @@
-package ufpr.org.churrascometro.calc;
+package org.ufpr.churrascometro.calc;
 
 /**
  * Created by roberto on 18/11/17.

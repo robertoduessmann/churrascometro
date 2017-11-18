@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
     defaultConfig {
-        applicationId "ufpr.org.churrascometro"
+        applicationId "org.ufpr.churrascometro"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
