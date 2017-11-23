@@ -1,4 +1,6 @@
 language: android
 android:
   components:
+    - build-tools
     - android-21
+    - extra
