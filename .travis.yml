@@ -7,5 +7,14 @@ android:
     - tools
     - build-tools-26.0.0
     - android-26
+# Support library
+    - extra-android-support
+
 before_install:
   - yes | sdkmanager "platforms;android-26"
+
+script:
+   - chmod +x ./gradlew
+
+licenses:
+  - '.+'
