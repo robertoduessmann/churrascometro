@@ -7,3 +7,5 @@ android:
     - tools
     - build-tools-26.0.0
     - android-26
+before_install:
+  - yes | sdkmanager "platforms;android-26"
