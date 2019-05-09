@@ -7,11 +7,17 @@ import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 import org.ufpr.churrascometro.calc.BarbecueCalc;
 
 public class MainActivity extends AppCompatActivity implements Button.OnClickListener, SeekBar.OnSeekBarChangeListener {
 
     private static final String DEFAULT_UNIT = " Kg";
+    private AdView mAdView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +25,11 @@ public class MainActivity extends AppCompatActivity implements Button.OnClickLis
         setContentView(R.layout.activity_main);
 
         setListeners();
+
+        MobileAds.initialize(this, "<APP_ID>");
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
 
     private void setListeners() {
