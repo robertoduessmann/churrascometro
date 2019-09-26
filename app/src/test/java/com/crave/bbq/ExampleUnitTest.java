@@ -1,4 +1,4 @@
-package org.ufpr.churrascometro;
+package com.crave.bbq;
 
 import org.junit.Test;
 
