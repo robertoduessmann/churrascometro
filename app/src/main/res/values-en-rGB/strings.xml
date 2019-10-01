@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Churrascometro</string>
+    <string name="number_of_men" translatable="true">"Number of Men"</string>
+    <string name="number_of_women" translatable="true">"Number of Women"</string>
+    <string name="number_of_children" translatable="true">"Number of Children"</string>
+    <string name="barbecue" translatable="true">"Barbecue"</string>
+    <string name="meat" translatable="true">"Meat:"</string>
+    <string name="sausage" translatable="true">"Sausage:"</string>
+</resources>

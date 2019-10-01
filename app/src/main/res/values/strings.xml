@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Churrascometro</string>
+
+    <string name="number_of_men" translatable="true">"Quantidade de Homens"</string>
+    <string name="number_of_women" translatable="true">"Quantidade de Mulheres"</string>
+    <string name="number_of_children" translatable="true">"Quantidade de Crianças"</string>
+    <string name="barbecue" translatable="true">"Churrascar"</string>
+    <string name="meat" translatable="true">"Carne:"</string>
+    <string name="sausage" translatable="true">"Linguiça:"</string>
+
 </resources>
