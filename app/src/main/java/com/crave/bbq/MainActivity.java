@@ -1,4 +1,4 @@
-package org.ufpr.churrascometro;
+package com.crave.bbq;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -11,7 +11,7 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
-import org.ufpr.churrascometro.calc.BarbecueCalc;
+import com.crave.bbq.calc.BarbecueCalc;
 
 public class MainActivity extends AppCompatActivity implements Button.OnClickListener, SeekBar.OnSeekBarChangeListener {
 
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements Button.OnClickLis
 
         setListeners();
 
-        MobileAds.initialize(this, "<APP_ID>");
+        MobileAds.initialize(this, getResources().getString(R.string.ads_id));
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);

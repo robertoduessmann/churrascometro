@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Churrascometro</string>
+    <string name="ads_id"></string><!--TODO add your ads ID-->
 </resources>
