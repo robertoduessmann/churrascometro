@@ -1,4 +1,4 @@
-package org.ufpr.churrascometro.calc;
+package com.crave.bbq.calc;
 
 /**
  * Created by roberto on 18/11/17.

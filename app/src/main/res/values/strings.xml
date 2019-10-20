@@ -8,4 +8,5 @@
     <string name="meat" translatable="true">"Carne:"</string>
     <string name="sausage" translatable="true">"Linguiça:"</string>
 
+    <string name="ads_id"></string><!--TODO add your ads ID-->
 </resources>

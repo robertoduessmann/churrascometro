@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.ufpr.churrascometro.MainActivity">
+    tools:context="com.crave.bbq.MainActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -198,7 +198,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         ads:adSize="BANNER"
-        ads:adUnitId="<AD_ID>"
+        ads:adUnitId="@string/ads_id"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.441"
         app:layout_constraintLeft_toLeftOf="parent"
