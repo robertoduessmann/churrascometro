@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setListeners()
 
-        MobileAds.initialize(this, getString(R.string.ads_id))
+        MobileAds.initialize(this, BuildConfig.AdsAPIKey)
         val adRequest = AdRequest.Builder().build()
         adView.loadAd(adRequest)
     }
@@ -66,4 +66,3 @@ private val SeekBar.doubleProgress: Double
     get() {
         return progress.toDouble()
     }
-
