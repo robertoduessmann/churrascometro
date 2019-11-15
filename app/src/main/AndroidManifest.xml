@@ -11,8 +11,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-                   
-            android:value="@string/ads_id"/>
+            android:value="@string/ads_api_key"/>
         <activity android:name="com.crave.bbq.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

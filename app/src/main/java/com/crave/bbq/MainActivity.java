@@ -1,5 +1,6 @@
 package com.crave.bbq;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements Button.OnClickLis
 
         setListeners();
 
-        MobileAds.initialize(this, getResources().getString(R.string.ads_id));
+        MobileAds.initialize(this, BuildConfig.AdsAPIKey);
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
